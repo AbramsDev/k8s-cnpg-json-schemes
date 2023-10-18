@@ -1,0 +1,16 @@
+{
+  "oneOf": [
+    {
+      "$ref": "_definitions.json#/definitions/k8s.cnpg.Cluster"
+    },
+    {
+      "$ref": "_definitions.json#/definitions/k8s.cnpg.Backup"
+    },
+    {
+      "$ref": "_definitions.json#/definitions/k8s.cnpg.Pooler"
+    },
+    {
+      "$ref": "_definitions.json#/definitions/k8s.cnpg.ScheduledBackup"
+    }
+  ]
+}

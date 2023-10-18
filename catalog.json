@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/schema-catalog.json",
+  "schemas": [
+    {
+      "name": "Common types for all schemas",
+      "description": "",
+      "fileMatch": [],
+      "url": "https://json.schemastore.org/base.json"
+    },
+    {
+      "name": "base-04",
+      "description": "Common types for draft-04-based schemas",
+      "fileMatch": [],
+      "url": "https://json.schemastore.org/base-04.json"
+    },
+
+    {
+      "name": "K8S CNPG Operator. All",
+      "description": "Kubernetes CloudNativePG Operator schemas",
+      "fileMatch": ["*.yml", "*.yaml"],
+      "url": "https://raw.githubusercontent.com/AbramsDev/k8s-cnpg-json-schemes/main/cnpg/schemas.json"
+    },
+
+    {
+      "name": "K8S. All",
+      "description": "Kubernetes schemas",
+      "fileMatch": ["*.yml", "*.yaml"],
+      "url": "https://raw.githubusercontent.com/yannh/kubernetes-json-schema/master/v1.28.2-standalone-strict/all.json"
+    }
+  ],
+  "version": 1
+}
